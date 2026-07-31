@@ -76,7 +76,7 @@ Lorsque l'on crée une application, on suit généralement les étapes suivantes
 
 ↓
 
-✅ Résultat
+ Résultat
 ```
 
 Le programme n'est donc pas créé directement.
@@ -124,7 +124,7 @@ C'est pourquoi l'algorithme doit être écrit dans un langage comme Python ou Ja
 
         ▼
 
-❌ Ne comprend pas
+ Ne comprend pas
 
 ↓
 
@@ -132,7 +132,7 @@ Python / JavaScript
 
 ↓
 
-✅ Comprend
+ Comprend
 ```
 
 ---
@@ -302,7 +302,7 @@ Les développeurs expérimentés commencent donc par réfléchir à l'algorithme
 ## 📊 INFOGRAPHIE 5 — Avant ou après ?
 
 ```text
-❌ Commencer par le code
+ Commencer par le code
 
 Code
 
@@ -320,7 +320,7 @@ Temps perdu
 
 ────────────────────
 
-✅ Commencer par l'algorithme
+ Commencer par l'algorithme
 
 Algorithme
 
@@ -477,7 +477,7 @@ C. Une liste de problèmes.
 
 D. Un ordinateur.
 
-✅ **Réponse : B**
+ **Réponse : B**
 
 ---
 
@@ -491,7 +491,7 @@ C. Le programme est toujours plus court.
 
 D. L'algorithme est exécuté par un humain uniquement.
 
-✅ **Réponse : B**
+ **Réponse : B**
 
 ---
 
@@ -505,7 +505,7 @@ C. Seulement en Python.
 
 D. Seulement en JavaScript.
 
-✅ **Réponse : B**
+ **Réponse : B**
 
 ---
 
@@ -519,7 +519,7 @@ C. Pour rendre l'ordinateur plus rapide.
 
 D. Pour installer un nouveau logiciel.
 
-✅ **Réponse : B**
+ **Réponse : B**
 
 ---
 
@@ -533,7 +533,7 @@ C. La syntaxe utilisée pour écrire le programme.
 
 D. Le résultat attendu.
 
-✅ **Réponse : C**
+ **Réponse : C**
 
 ---
 
@@ -553,628 +553,513 @@ Tu connais maintenant la différence entre un **algorithme** et un **programme**
 
 # Objektif aprantisaj
 
-Lè w fini leson sa a, ou ap kapab:
+Lè w fini leson sa a, w ap kapab:
 
-- Defini kisa yon pwogram ye.
-- Eksplike diferans ki genyen ant yon algoritm ak yon pwogram.
-- Konprann ke menm algoritm lan ka ekri nan plizyè langaj pwogramasyon.
-- Konprann ke yon pwogram dwe prepare oswa tradui an langaj machin anvan òdinatè a ka egzekte li.
-- Konprann poukisa li enpòtan pou prepare yon algoritm anvan ou ekri kòd.
+* Eksplike diferans ki genyen ant yon algoritm ak yon pwogram.
+* Konprann poukisa yon algoritm pa ka egzekite dirèkteman pa yon òdinatè.
+* Konprann kijan yon algoritm vin tounen yon pwogram.
+* Konprann ke menm algoritm lan ka ekri nan plizyè langaj pwogramasyon.
+* Idantifye si yon egzanp se yon algoritm oswa yon pwogram.
 
 ---
 
 # Entwodiksyon
 
-Jiska kounye a, nou aprann ke yon algoritm se yon seri etap ki pèmèt rezoud yon pwoblèm.
+Nan leson anvan yo, ou te aprann kijan pou ekri yon algoritm pou rezoud yon pwoblèm.
 
-Men, gen yon kestyon enpòtan.
+Men, gen yon kestyon ki enpòtan anpil.
 
-> **Kijan yon òdinatè rive egzekite yon algoritm?**
+> **Èske yon algoritm ase pou òdinatè a fè travay la?**
 
-Repons lan fèt an plizyè etap.
-
-Premye etap la se reflechi sou pwoblèm nan epi prepare yon algoritm.
-
-Apre sa, algoritm nan ekri nan yon langaj pwogramasyon tankou **Python**, **JavaScript**, **Java** oswa **C++**.
-
-Lè algoritm nan ekri nan yon langaj pwogramasyon, li vin tounen yon **pwogram** (oswa **kòd sous**).
-
-Men, travay la pa fini la.
-
-Yon òdinatè pa konprann langaj pwogramasyon dirèkteman.
-
-Li konprann sèlman **langaj machin**, sa vle di enstriksyon ki ekri an binè (0 ak 1).
-
-Se poutèt sa, anvan processeur a (CPU) ka egzekite yon pwogram, pwogram nan dwe pase atravè yon etap preparasyon.
-
-Tou depan de langaj pwogramasyon an, etap sa a ka fèt pa yon **konpilatè**, yon **entèprèt**, oswa yon lòt sistèm ki prepare pwogram nan pou processeur a.
-
-Nan leson sa a, nou pral sitou aprann diferans ki genyen ant **algoritm** ak **pwogram**.
-
-Nou pral etidye konpilatè, entèprèt ak langaj machin pi an detay nan yon lòt modil.
-
-> **💡 Sa pou sonje**
->
-> **Yon algoritm dekri etap pou rezoud yon pwoblèm.**
->
-> **Yon pwogram se algoritm sa a ki ekri nan yon langaj pwogramasyon.**
->
-> **Anvan òdinatè a egzekite pwogram nan, li dwe prepare oswa tradui an langaj machin.**
-
----
-
-## 📊 ENFOGRAFI 17 — Depi pwoblèm rive jouk CPU a
-
-### Objektif
-
-Montre tout etap ki pèmèt yon òdinatè egzekite yon solisyon.
+Ann pran egzanp sa a.
 
 ```text
-🎯 Pwoblèm
-
-        │
-
-        ▼
-
-📝 Algoritm
-
-        │
-
-        ▼
-
-💻 Langaj pwogramasyon
-
-        │
-
-        ▼
-
-📄 Pwogram (Kòd sous)
-
-        │
-
-        ▼
-
-⚙ Konpilatè / Entèprèt
-
-        │
-
-        ▼
-
-010101... (Langaj machin)
-
-        │
-
-        ▼
-
-🖥 CPU egzekite enstriksyon yo
+1. Li de nonb.
+2. Fè adisyon an.
+3. Afiche rezilta a.
 ```
 
----
+Nou menm, nou konprann etap sa yo san pwoblèm.
 
-## 💡 Èske w te konnen?
+Men, èske yon òdinatè kapab li algoritm sa a dirèkteman?
 
-Processeur yon òdinatè pa konprann Python, JavaScript oswa C++ dirèkteman.
-
-Li konprann sèlman langaj machin.
-
-Se poutèt sa tout pwogram dwe pase atravè yon etap preparasyon anvan òdinatè a ka egzekite yo.
-
----
-
-# Kisa yon pwogram ye?
-
-Yon **pwogram** se yon seri enstriksyon ki ekri nan yon langaj pwogramasyon.
-
-Pwogram nan se fason nou ekri yon algoritm pou yon òdinatè kapab prepare epi egzekite li.
-
-Nan lòt mo:
-
-- **Algoritm lan** dekri etap pou rezoud yon pwoblèm.
-- **Pwogram nan** se algoritm sa a ki ekri nan yon langaj pwogramasyon.
-
-Yon menm algoritm ka ekri nan plizyè langaj diferan.
-
-Se poutèt sa ou ka itilize **Python**, **JavaScript**, **Java**, **C++**, **Go** oswa anpil lòt langaj pou rezoud menm pwoblèm nan.
-
-Sa ki chanje se sentaks langaj la.
-
-Sa ki pa chanje se lojik algoritm nan.
-
----
-
-# Yon konparezon ki fasil pou konprann
-
-Ann pran yon egzanp tout moun konnen.
-
-Ou vle konstwi yon kay.
-
-Premye bagay ou bezwen se yon **plan**.
-
-Plan an montre:
-
-- ki kote mi yo pral ye;
-- ki kote pòt yo pral ye;
-- ki kote fenèt yo pral ye;
-- ki jan tout kay la ap òganize.
-
-Lè plan an pare, mason yo sèvi avè l pou konstwi kay la.
-
-Nan enfòmatik, se menm prensip la.
-
-- 📝 **Algoritm lan** se plan an.
-- 💻 **Pwogram nan** se plan sa a ki ekri nan yon langaj pwogramasyon.
-- ⚙️ **Konpilatè oswa entèprèt la** prepare pwogram nan pou òdinatè a ka egzekite li.
-
-San yon plan, li difisil pou konstwi yon bon kay.
-
-Menm jan an tou, san yon algoritm, li difisil pou devlope yon bon pwogram.
-
----
-
-## 📊 ENFOGRAFI 18 — Plan kay vs Pwogram
-
-```text
-🏠 Kay
-
-📐 Plan
-
-        │
-
-        ▼
-
-👷 Konstriksyon
-
-        │
-
-        ▼
-
-🏡 Kay fini
-
-────────────────────────────
-
-💻 Òdinatè
-
-📝 Algoritm
-
-        │
-
-        ▼
-
-📄 Pwogram
-
-        │
-
-        ▼
-
-⚙ Konpilatè / Entèprèt
-
-        │
-
-        ▼
-
-🖥 Egzekisyon
-```
-
----
-
-# Egzanp
-
-Ann sipoze nou vle salye yon itilizatè.
-
-Anvan nou ekri nenpòt kòd, nou reflechi sou etap yo.
-
-## Algoritm
-
-1. Mande itilizatè a non li.
-2. Li non an.
-3. Afiche mesaj **"Bonjou"** ansanm ak non an.
-
-Algoritm sa a fasil pou yon moun konprann.
-
-Men yon òdinatè pa konprann fraz sa yo dirèkteman.
-
-Nou dwe ekri yo nan yon langaj pwogramasyon.
-
----
-
-## Pwogram an Python
-
-```python
-nom = input("Antre non ou : ")
-print("Bonjou", nom)
-```
-
----
-
-## Pwogram an JavaScript
-
-```javascript
-const nom = prompt("Antre non ou");
-console.log("Bonjou " + nom);
-```
-
----
-
-# Kisa ou remake?
-
-De pwogram sa yo pa ekri menm jan.
-
-Men yo fè egzakteman menm travay la.
+Repons lan se **Non**.
 
 Poukisa?
 
-Paske yo baze sou **menm algoritm lan**.
+Paske òdinatè a pa konprann lang nou itilize chak jou.
 
-Se sèlman sentaks langaj la ki chanje.
+Li bezwen enstriksyon ki ekri nan yon lang li kapab travay avèk.
 
-Lojik la rete menm jan.
+Se la **pwogram** antre an jwèt.
 
----
+Nan leson sa a, ou pral dekouvri diferans ki genyen ant yon algoritm ak yon pwogram, epi ou pral konprann kijan youn vin tounen lòt la.
 
-## 📊 ENFOGRAFI 19 — Yon algoritm, plizyè langaj
 
-```text
-             📝 Algoritm
+# Kisa yon algoritm ye?
 
-      Li non itilizatè a
+Yon algoritm se yon seri etap ki montre kijan pou rezoud yon pwoblèm oswa reyalize yon objektif.
 
-      Afiche "Bonjou"
-
-               │
-
-───────────────┼────────────────
-
-        ▼              ▼
-
-🐍 Python      💛 JavaScript
-
-        ▼              ▼
-
-      Menm rezilta
-```
-
----
-
-## 💡 Sonje
-
-Lè ou aprann algoritmik, ou pa aprann sèlman yon langaj.
-
-Ou aprann yon fason pou rezoud pwoblèm.
-
-Se poutèt sa yon pwogramè ki byen metrize algoritmik ka aprann yon nouvo langaj pi fasil.
-
----
-
-# Yon algoritm ka ekri nan plizyè langaj
-
-Yon algoritm pa depann de yon langaj pwogramasyon.
-
-Sa vle di, menm algoritm lan ka ekri nan anpil langaj diferan.
+Li eksplike **kisa pou fè**, san li pa bezwen itilize yon langaj pwogramasyon.
 
 Pa egzanp:
 
-- 🐍 Python
-- 💛 JavaScript
-- ☕ Java
-- ⚙️ C
-- ⚙️ C++
-- 💜 C#
-- 🐘 PHP
-- 🐹 Go
-- 🦀 Rust
-
-Chak langaj gen pwòp sentaks pa li.
-
-Men lojik algoritm nan rete menm jan.
-
-Se poutèt sa, lè ou byen metrize algoritmik, li vin pi fasil pou aprann nenpòt nouvo langaj pwogramasyon.
-
----
-
-## 📊 ENFOGRAFI 20 — Menm algoritm, plizyè langaj
-
 ```text
-                 📝 Algoritm
-
-                       │
-
-      ┌────────────────┼────────────────┐
-
-      ▼                ▼                ▼
-
-🐍 Python      💛 JavaScript       ☕ Java
-
-      ▼                ▼                ▼
-
-⚙️ C++           🦀 Rust           🐹 Go
-
-               │
-
-               ▼
-
-      Menm lojik
-      Sentaks diferan
+1. Li de nonb.
+2. Fè adisyon an.
+3. Afiche rezilta a.
 ```
 
----
+Sa se yon algoritm.
 
-# Poukisa nou prepare algoritm nan anvan nou ekri kòd?
+Li montre etap yo, men li pa ekri nan Python, JavaScript oswa nenpòt lòt langaj.
 
-Ann reprann egzanp kay la.
+![Description](https://api.tizekode.com/media/algorithm/discover_algorithm/algorit.png)
 
-Si yon mason kòmanse konstwi san plan, li ka:
 
-- mete pòt yo nan move plas;
-- bliye kèk fenèt;
-- kraze yon pati pou rebati li;
-- pèdi tan ak materyèl.
+# Kisa yon pwogram ye?
+
+Yon pwogram se **yon algoritm ki ekri nan yon langaj pwogramasyon** pou yon òdinatè kapab prepare epi egzekte li.
+
+Sa vle di algoritm lan pa chanje.
+
+Se sèlman fason nou ekri li ki chanje.
+
+Pa egzanp, algoritm nou te wè a ka ekri an Python.
+
+```python
+a = int(input("Premye nonb: "))
+b = int(input("Dezyèm nonb: "))
+
+print(a + b)
+```
+
+Koulye a, sa pa yon algoritm ankò.
+
+Se yon **pwogram**.
+
+Paske li ekri nan yon langaj pwogramasyon.
+
+![Description](https://api.tizekode.com/media/algorithm/discover_algorithm/pwogram.png)
+
+
+# Diferans ant yon algoritm ak yon pwogram
+
+Anpil moun panse de mo sa yo vle di menm bagay.
+
+Men se pa vre.
+
+Yo gen yon relasyon sere, men yo pa menm.
+
+| Algoritm                                | Pwogram                                          |
+| --------------------------------------- | ------------------------------------------------ |
+| Yon solisyon pou yon pwoblèm            | Yon algoritm ki ekri nan yon langaj pwogramasyon |
+| Ekri ak etap ki fasil pou moun konprann | Ekri ak sentaks yon langaj                       |
+| Pa depann de okenn langaj               | Depann de yon langaj pwogramasyon                |
+| Ka ekri sou papye                       | Ekri pou òdinatè kapab egzekte li                |
+
+💡 **Lide kle**
+
+> **Yon pwogram toujou soti nan yon algoritm. Men, yon algoritm pa oblije tounen yon pwogram.**
+
+# Yon algoritm ka ekri nan plizyè langaj
+
+Ann reprann algoritm nou te wè a.
+
+```text
+1. Li de nonb.
+2. Fè adisyon an.
+3. Afiche rezilta a.
+```
+
+Sa a se algoritm lan.
+
+Li eksplike **sa pou fè**, men li pa di **kijan pou ekri li nan yon langaj pwogramasyon**.
+
+Ann wè kijan menm algoritm sa ka ekri nan de langaj diferan.
+
+
+## Menm algoritm lan an Python
+
+```python
+a = int(input("Premye nonb: "))
+b = int(input("Dezyèm nonb: "))
+
+print(a + b)
+```
+
+
+## Menm algoritm lan an JavaScript
+
+```javascript
+const a = Number(prompt("Premye nonb:"));
+const b = Number(prompt("Dezyèm nonb:"));
+
+console.log(a + b);
+```
+
+
+Pran kèk segonn pou obsève de pwogram sa yo.
+
+Yo pa ekri menm jan.
+
+Gen kèk mo ki diferan.
+
+Gen kèk senbòl ki diferan.
+
+Men, yo fè egzakteman menm travay la.
+
+Sa vle di:
+
+* **Langaj la chanje.**
+* **Algoritm lan pa chanje.**
+
+Se poutèt sa menm algoritm lan ka ekri nan Python, JavaScript, Java, C++ oswa anpil lòt langaj pwogramasyon.
+
+![Description](https://api.tizekode.com/media/algorithm/discover_algorithm/menm_lojik_langaj_diferan.png)
+
+
+
+💡 **Lide kle**
+
+> **Yon algoritm se lide a. Langaj pwogramasyon an se fason nou ekri lide sa a pou òdinatè a kapab egzekte li.**
+
+
+# Poukisa nou ekri algoritm anvan nou ekri kòd?
+
+Ann pran yon lòt egzanp.
+
+Imajine ou vle konstwi yon kay.
+
+Èske mason yo kòmanse bati kay la san okenn plan?
+
+Non.
+
+Anvan yo mete premye blòk la, yo bezwen yon plan ki montre kijan kay la dwe konstwi.
+
+Plan sa a ede tout moun konprann sa pou yo fè.
 
 Nan pwogramasyon, se menm bagay la.
 
-Si ou kòmanse ekri kòd san yon algoritm, ou ka:
+Anvan yon pwogramè kòmanse ekri kòd, li reflechi sou algoritm lan.
 
-- bliye kèk etap enpòtan;
-- fè erè nan lojik la;
-- pase anpil tan ap korije kòd la;
-- oblije rekòmanse yon pati nan pwogram nan.
+Algoritm lan se plan an.
 
-Se poutèt sa pifò pwogramè ki gen eksperyans toujou reflechi sou algoritm nan anvan yo kòmanse ekri kòd.
+Pwogram nan se aplikasyon plan sa a nan yon langaj pwogramasyon.
 
----
-
-## 📊 ENFOGRAFI 21 — San algoritm vs Avèk algoritm
-
-```text
-❌ San algoritm
-
-Kòmanse ekri kòd
-
-        ▼
-
-Erè
-
-        ▼
-
-Koreksyon
-
-        ▼
-
-Nouvo erè
-
-──────────────────────────
-
-✅ Avèk algoritm
-
-Pwoblèm
-
-        ▼
-
-Algoritm
-
-        ▼
-
-Pwogram
-
-        ▼
-
-Preparasyon
-(Konpilatè / Entèprèt)
-
-        ▼
-
-Egzekisyon
-```
-
----
-
-# Reflechi tankou yon pwogramè 🧠
-
-Ou vle kreye yon aplikasyon ki kalkile mwayèn twa nòt.
-
-Ki premye bagay ou ta dwe fè?
-
-### A
-
-Kòmanse ekri kòd tousuit.
-
-### B
-
-Reflechi sou etap ki nesesè pou kalkile mwayèn nan.
-
-✅ Bon repons lan se **B**.
-
-Anvan ou chwazi yon langaj pwogramasyon, ou dwe konprann pwoblèm nan epi prepare algoritm lan.
-
-Lè algoritm lan pare, ekri pwogram nan vin pi fasil.
-
----
-
-## 💡 Sonje
-
-Yon bon pwogramè pa kòmanse pa tape kòd.
-
-Li kòmanse pa konprann pwoblèm nan.
-
-Apre sa, li prepare algoritm lan.
-
-Se sèlman lè sa a li ekri pwogram nan.
+![Description](https://api.tizekode.com/media/algorithm/discover_algorithm/plan_ak_kay.png)
 
 
----
 
-# Kijan yon pwoblèm vin tounen yon pwogram?
+Remake byen.
 
-Ann reprann tout pwosesis la depi nan kòmansman.
+Plan an pa kay la.
 
-Lè yon moun vle kreye yon aplikasyon, li pa kòmanse dirèkteman ekri kòd.
+Men, san plan an, li pi difisil pou konstwi kay la.
 
-Li suiv plizyè etap.
+Se menm jan an tou:
 
-1. Idantifye pwoblèm nan.
-2. Reflechi sou solisyon an.
-3. Prepare algoritm lan.
-4. Ekri algoritm lan nan yon langaj pwogramasyon.
-5. Prepare pwogram nan pou òdinatè a (konpilatè, entèprèt oswa yon lòt mekanis).
-6. CPU a egzekite enstriksyon yo.
-7. Pwogram nan bay rezilta a.
+Algoritm lan pa pwogram nan.
 
-Sa a se menm pwosesis tout pwogram suiv, kit se yon jwèt videyo, yon aplikasyon bankè oswa yon rezo sosyal.
+Men, yon bon algoritm fè li pi fasil pou ekri yon bon pwogram.
 
----
 
-## 📊 ENFOGRAFI 22 — Depi lide rive nan rezilta
+## 👨🏽‍💻 Konsèy pwogramè
+
+Lè yon pwoblèm sanble konplike, pa prese louvri editè kòd ou.
+
+Pran kèk minit pou ekri algoritm lan sou papye oswa sou yon tablo.
+
+Lè lojik la klè, ekri pwogram nan ap vin pi fasil epi w ap fè mwens erè.
+
+
+## ⚠ Erè debutan
+
+Anpil moun ki kòmanse aprann pwogramasyon panse premye etap la se ekri kòd.
+
+Se pa sa bon pwogramè yo fè.
+
+Yo kòmanse pa konprann pwoblèm nan.
+
+Apre sa, yo ekri algoritm lan.
+
+Se sèlman lè algoritm lan pare yo kòmanse ekri pwogram nan.
+
+Sa ede yo travay pi vit epi evite anpil erè.
+
+
+# Soti nan pwoblèm rive nan pwogram
+
+Koulye a, ann mete tout sa nou aprann yo ansanm.
+
+Lè ou vle kreye yon pwogram, ou suiv chemen sa a:
 
 ```text
-💡 Lide
-
-        ▼
-
 🎯 Pwoblèm
+
+        │
 
         ▼
 
 📝 Algoritm
+
+        │
 
         ▼
 
 💻 Pwogram
-(Kòd sous)
+
+        │
 
         ▼
 
-⚙️ Preparasyon pwogram nan
-
-        ▼
-
-🖥 CPU
-
-        ▼
-
-✅ Rezilta
+ Rezilta
 ```
 
----
+Chak etap gen yon wòl enpòtan.
 
-# Egzèsis refleksyon
+Ou pa ka sote algoritm lan si ou vle kreye yon pwogram ki byen òganize.
 
-## Egzèsis 1
+💡 **Lide kle**
 
-Mete etap sa yo nan bon lòd.
+> **Pwoblèm nan montre sa ou vle rezoud. Algoritm lan montre kijan pou rezoud li. Pwogram nan pèmèt òdinatè a egzekte solisyon an.**
 
-- Pwogram
-- CPU egzekite enstriksyon yo
-- Algoritm
-- Pwoblèm
-- Rezilta
+# Egzèsis
 
-<details>
-<summary>Repons</summary>
+Kounye a, se ou menm ki pral mete sa ou aprann yo an pratik.
 
-1. Pwoblèm
-2. Algoritm
-3. Pwogram
-4. CPU egzekite enstriksyon yo
-5. Rezilta
+Pran tan pou reflechi anvan ou gade repons yo.
 
-</details>
 
----
+## Egzèsis 1 — Algoritm oswa Pwogram?
 
-## Egzèsis 2
+Pou chak egzanp, ekri si se yon **algoritm** oswa yon **pwogram**.
 
-Vrè oswa Fo?
+### Egzanp A
 
-- Yon pwogram se menm bagay ak yon algoritm.
-- Menm algoritm lan ka ekri nan plizyè langaj pwogramasyon.
-- Yon òdinatè konprann Python dirèkteman.
-- Yon algoritm dwe prepare kòm yon pwogram anvan òdinatè a ka egzekite li.
+```text
+1. Li de nonb.
+2. Fè adisyon an.
+3. Afiche rezilta a.
+```
 
-<details>
-<summary>Repons</summary>
 
-- ❌ Fo
-- ✅ Vrè
-- ❌ Fo
-- ✅ Vrè
+### Egzanp B
 
-</details>
+```python
+print("Bonjou")
+```
 
----
 
-## Egzèsis 3
+### Egzanp C
 
-Ou vle kreye yon aplikasyon kalkilatris.
+```javascript
+console.log("Bonjou");
+```
 
-Ekri algoritm lan anvan ou panse ak langaj pwogramasyon ou pral itilize.
 
----
+### Egzanp D
 
-## Egzèsis 4
+> 1. Louvri navigatè a.
+>
+> 2. Antre adrès sit entènèt la.
+>
+> 3. Peze **Enter**.
 
-Gade lis sa a.
-
-- Algoritm
-- Python
-- JavaScript
-- Java
-- C++
-
-Kiyès ki reprezante yon solisyon?
-
-Kiyès ki reprezante langaj pwogramasyon?
 
 <details>
 <summary>Repons</summary>
 
-**Solisyon an:** Algoritm.
+A → Algoritm
 
-**Langaj pwogramasyon yo:** Python, JavaScript, Java ak C++.
+B → Pwogram
+
+C → Pwogram
+
+D → Algoritm
 
 </details>
 
----
 
-## ⚠️ Erè debutan fè souvan
+# Egzèsis 2 — Menm algoritm lan
 
-Lè moun kòmanse aprann pwogramasyon, yo konn fè konfizyon ant **algoritm**, **pwogram** ak **langaj pwogramasyon**.
+Gade algoritm sa a.
 
-Sonje byen:
+```text
+1. Mande non itilizatè a.
+2. Li non an.
+3. Afiche mesaj "Bonjou".
+```
 
-- Algoritm lan se lide oswa etap pou rezoud yon pwoblèm.
-- Pwogram nan se algoritm sa a ki ekri nan yon langaj pwogramasyon.
-- Langaj pwogramasyon an se zouti ki pèmèt ekri pwogram nan.
+### Kesyon
 
-Yo pa menm bagay.
+* Èske algoritm sa a ka ekri nan Python?
+* Èske li ka ekri nan JavaScript?
+* Èske algoritm lan ap chanje?
 
----
+<details>
+<summary>Repons</summary>
+
+Wi.
+
+Li ka ekri nan Python, JavaScript oswa nenpòt lòt langaj.
+
+Se sèlman langaj la ki chanje.
+
+Algoritm lan rete menm jan an.
+
+</details>
+
+
+# Egzèsis 3 — Chèche algoritm lan
+
+Gade pwogram Python sa a.
+
+```python
+age = int(input("Laj ou: "))
+
+if age >= 18:
+    print("Ou granmoun.")
+else:
+    print("Ou poko granmoun.")
+```
+
+San ekri okenn kòd, dekri algoritm ki dèyè pwogram sa a.
+
+💡 **Konsèy**
+
+Pa reflechi sou sentaks Python an.
+
+Reflechi sèlman sou etap yo.
+
+
+
+<details>
+<summary>Yon solisyon posib</summary>
+
+1. Mande laj itilizatè a.
+2. Li laj la.
+3. Si laj la pi gran oswa egal ak 18, afiche **"Ou granmoun."**
+4. Sinon, afiche **"Ou poko granmoun."**
+
+</details>
+
+
+
+# Egzèsis 4 — Ranpli chemen an
+
+Ranpli dyagram sa a.
+
+```text
+🎯 _______
+
+      │
+
+      ▼
+
+📝 _______
+
+      │
+
+      ▼
+
+💻 _______
+
+      │
+
+      ▼
+
+ Rezilta
+```
+
+<details>
+<summary>Repons</summary>
+
+Pwoblèm
+
+↓
+
+Algoritm
+
+↓
+
+Pwogram
+
+</details>
+
+
+
+#  Egzèsis 5 — Vrè oswa Fo?
+
+Ekri **Vrè** oswa **Fo**.
+
+1. Yon algoritm se yon pwogram.
+
+2. Yon pwogram se yon algoritm ki ekri nan yon langaj pwogramasyon.
+
+3. Menm algoritm lan ka ekri nan plizyè langaj.
+
+4. Yon òdinatè ka egzekte yon algoritm ki ekri sou papye.
+
+5. Li pi bon reflechi sou algoritm lan anvan ou ekri pwogram nan.
+
+
+
+<details>
+<summary>Repons</summary>
+
+1.  Fo
+
+2.  Vrè
+
+3.  Vrè
+
+4.  Fo
+
+5.  Vrè
+
+</details>
+
+
+# Rezime
+
+Nan leson sa a, ou dekouvri ke yon **algoritm** ak yon **pwogram** pa menm bagay.
+
+Yon algoritm se yon seri etap ki montre kijan pou rezoud yon pwoblèm.
+
+Yon pwogram se algoritm sa a ki ekri nan yon langaj pwogramasyon pou òdinatè a kapab egzekte li.
+
+Ou aprann tou ke menm algoritm lan ka ekri nan plizyè langaj diferan.
+
+Sa ki chanje se **langaj la**.
+
+Sa ki pa chanje se **lojik algoritm lan**.
+
+Anfen, ou wè poukisa bon pwogramè yo toujou reflechi sou algoritm lan anvan yo kòmanse ekri kòd.
+
+
 
 # Sa pou sonje
 
-- Yon algoritm se yon seri etap pou rezoud yon pwoblèm.
-- Yon pwogram se algoritm lan ki ekri nan yon langaj pwogramasyon.
-- Menm algoritm lan ka ekri nan plizyè langaj diferan.
-- Yon pwogram dwe prepare anvan processeur a ka egzekite li.
-- Lojik algoritm lan pa chanje; se sèlman sentaks langaj la ki diferan.
-- Yon bon pwogramè toujou prepare algoritm li anvan li kòmanse ekri kòd.
+ Yon algoritm se yon solisyon pou yon pwoblèm.
 
----
+ Yon pwogram se yon algoritm ki ekri nan yon langaj pwogramasyon.
+
+ Menm algoritm lan ka ekri nan plizyè langaj.
+
+ Òdinatè a egzekte pwogram nan, pa algoritm ki ekri sou papye.
+
+ Yon bon algoritm fè li pi fasil pou ekri yon bon pwogram.
+
+
 
 # Vokabilè
 
-| Mo | Definisyon |
-|-----|------------|
-| **Pwogram** | Yon seri enstriksyon ki ekri nan yon langaj pwogramasyon. |
-| **Langaj pwogramasyon** | Yon lang ki pèmèt ekri pwogram pou òdinatè. |
-| **Sentaks** | Règ ki defini fason pou ekri yon langaj pwogramasyon. |
-| **Konpilatè** | Yon zouti ki prepare oswa tradui yon pwogram pou òdinatè a ka egzekte li. |
-| **Entèprèt** | Yon zouti ki prepare oswa egzekite yon pwogram etap pa etap, selon langaj la. |
-| **Langaj machin** | Sèl lang processeur a konprann dirèkteman. |
-
----
-
-# Tranzisyon pou pwochen leson an
-
-Kounye a ou konprann diferans ki genyen ant yon algoritm ak yon pwogram.
-
-Nan pwochen leson an, ou pral aprann **kijan pou ekri algoritm yo an pseudo-kòd**, yon notasyon ki senp epi endepandan de nenpòt langaj pwogramasyon.
+| Mo                      | Definisyon                                                                       |
+| ----------------------- | -------------------------------------------------------------------------------- |
+| **Algoritm**            | Yon seri etap ki montre kijan pou rezoud yon pwoblèm.                            |
+| **Pwogram**             | Yon algoritm ki ekri nan yon langaj pwogramasyon pou òdinatè a kapab egzekte li. |
+| **Langaj pwogramasyon** | Yon lang ki pèmèt moun ekri pwogram pou òdinatè.                                 |
+| **Kòd**                 | Enstriksyon yo ekri nan yon langaj pwogramasyon.                                 |
+| **Sentaks**             | Règ pou ekri kòd nan yon langaj pwogramasyon.                                    |
 
